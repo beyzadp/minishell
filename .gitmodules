@@ -1,0 +1,3 @@
+[submodule "minimal-vm-env"]
+	path = minimal-vm-env
+	url = git@github.com:beyzadp/minimal-vm-env.git
