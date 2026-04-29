@@ -1,6 +1,6 @@
 #include "constants.h"
 #include "lwlog.h"
-#include "pipex.h"
+#include "minishell.h"
 #include <stdio.h>
 
 // A simplified mental model of a custom tokenizer
@@ -158,7 +158,7 @@ int execute_commands(t_cmd *head, char **envp) {
 int main(int argc, char **argv, char **envp) {
 
     // startup
-    lwlog_info("pipex starting");
+    lwlog_info("minishell starting");
 
     // PRINT ENVIRONMENT VARIABLES FOR DEBUGGING
     lwlog_info("environment variables:");

@@ -1,6 +1,6 @@
 #include "constants.h"
 #include "lwlog.h"
-#include "pipex.h"
+#include "minishell.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -14,9 +14,10 @@ void argcv_handler(int argc, char **argv) {
     (void)argv; // keep minimal for now; --help handled in main if needed
     if (argc == 2 && e_strcmp(argv[1], "--help") == 0) {
         lwlog_info("showing help and exiting");
-        printf("Usage: ./pipex [arguments]\n");
+        printf("Usage: ./minishell [arguments]\n");
         printf("Description: A simple shell-like command processor.\n");
-        printf("Example: ./pipex \"ls -l | grep 'hello world' > outfile\"\n");
+        printf(
+            "Example: ./minishell \"ls -l | grep 'hello world' > outfile\"\n");
         exit(0);
     }
 }

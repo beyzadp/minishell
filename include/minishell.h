@@ -1,5 +1,5 @@
-#ifndef PIPEX_H
-#define PIPEX_H
+#ifndef MINISHELL_H
+#define MINISHELL_H
 
 #include "e_lib.h"
 

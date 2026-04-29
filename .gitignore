@@ -1,23 +1,42 @@
-*/build/*
+# Build artifacts
+build/
+**/build/
 *.o
 *.a
 
-# Clangd Indexes
-libc_mini/.cache/
-libc_mini/.cache/clangd/
-libc_mini/.cache/clangd/index/
-libc_mini/.cache/clangd/index/*.idx
-
+# Generated compilation database
 compile_commands.json
 
-# Temporary test files
-libc_mini/tests/
-vm/tests/
+# Clangd / editor caches
+.cache/
+.cache/clangd/
 
-vm/build/
-libc_mini/build/
+# Project: minishell
 
-libds/tests/
-libds/build/
+# Build artifacts
+build/
+**/build/
 
-*/.cache/*
+# Object / archive files
+*.o
+*.a
+*.so
+
+# Generated compilation database
+compile_commands.json
+
+# Clangd / editor caches
+.cache/
+.cache/clangd/
+.cache/clangd/index/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.tmp
+*~
+.DS_Store
+
+# Logs and temporary files
+*.log
