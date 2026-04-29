@@ -1,6 +1,7 @@
 #include "constants.h"
 #include "lwlog.h"
 #include "minishell.h"
+#include <signal.h>
 #include <stdio.h>
 
 // A simplified mental model of a custom tokenizer
@@ -157,14 +158,10 @@ int execute_commands(t_cmd *head, char **envp) {
 
 int main(int argc, char **argv, char **envp) {
 
+    signal(SIGINT, signal_handler);
+
     // startup
     lwlog_info("minishell starting");
-
-    // PRINT ENVIRONMENT VARIABLES FOR DEBUGGING
-    lwlog_info("environment variables:");
-    for (int i = 0; envp[i] != NULL; i++) {
-        lwlog_info("  %s", envp[i]);
-    }
 
     // to handle arguments
     argcv_handler(argc, argv);

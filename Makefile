@@ -11,7 +11,7 @@ MINISRC := $(wildcard minimal-vm-env/libc_mini/src/stdio/*.c) $(wildcard minimal
 all: $(NAME)
 
 $(NAME): $(OBJ)
-    @$(CC) $(CFLAGS) $(INCLUDES) $(OBJ) $(MINISRC) -o $(NAME)
+	@$(CC) $(CFLAGS) $(INCLUDES) $(OBJ) $(MINISRC) -o $(NAME)
 
 
 $(BUILD_DIR)/%.o: src/%.c

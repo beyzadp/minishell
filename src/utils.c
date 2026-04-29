@@ -1,6 +1,7 @@
 #include "constants.h"
 #include "lwlog.h"
 #include "minishell.h"
+#include <signal.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -8,6 +9,17 @@
 
 /* Helper function to check for whitespace */
 int is_space(char c) { return (c == ' ' || c == '\t' || c == '\n'); }
+
+void signal_handler(int signum) {
+    if (signum == SIGINT) {
+        lwlog_info("Received SIGINT, exiting gracefully");
+        exit(0);
+    }
+    if (signum == SIGQUIT) {
+        lwlog_info("Received SIGQUIT, exiting gracefully");
+        exit(0);
+    }
+}
 
 void argcv_handler(int argc, char **argv) {
     (void)argc;
@@ -162,7 +174,6 @@ char *get_cmd_path(char *cmd, char **envp) {
     int j = 0;
     char *full_path;
     while (directories[j] != NULL) {
-        lwlog_debug("get_cmd_path: checking '%s/%s'", directories[j], cmd);
         full_path = e_malloc(strlen(directories[j]) + 1 + strlen(cmd) + 1);
         sprintf(full_path, "%s/%s", directories[j], cmd);
 

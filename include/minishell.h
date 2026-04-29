@@ -22,5 +22,6 @@ char **split_path(char *path_str);
 char *get_cmd_path(char *cmd, char **envp);
 void process_token(char *token, t_cmd **current_cmd, char **envp,
                    char **tracker);
+void signal_handler(int signum);
 
 #endif
