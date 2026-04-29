@@ -1,0 +1,23 @@
+*/build/*
+*.o
+*.a
+
+# Clangd Indexes
+libc_mini/.cache/
+libc_mini/.cache/clangd/
+libc_mini/.cache/clangd/index/
+libc_mini/.cache/clangd/index/*.idx
+
+compile_commands.json
+
+# Temporary test files
+libc_mini/tests/
+vm/tests/
+
+vm/build/
+libc_mini/build/
+
+libds/tests/
+libds/build/
+
+*/.cache/*

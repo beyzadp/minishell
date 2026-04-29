@@ -1,0 +1,994 @@
+[
+  {
+    "file": "src/linked_list.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-g3",
+      "-Wno-sign-compare",
+      "-Iinclude",
+      "-I../libc_mini/include",
+      "-c",
+      "src/linked_list.c",
+      "-o",
+      "build/linked_list.o"
+    ],
+    "directory": "/home/beyza/obsidian/vscode/coreproject/pipex",
+    "output": "build/linked_list.o"
+  },
+  {
+    "file": "src/main.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-g3",
+      "-Wno-sign-compare",
+      "-Iinclude",
+      "-I../libc_mini/include",
+      "-c",
+      "src/main.c",
+      "-o",
+      "build/main.o"
+    ],
+    "directory": "/home/beyza/obsidian/vscode/coreproject/pipex",
+    "output": "build/main.o"
+  },
+  {
+    "file": "../libc_mini/src/stdio/e_atoi.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-g3",
+      "-Wno-sign-compare",
+      "-Iinclude",
+      "-I../libc_mini/include",
+      "../libc_mini/src/stdio/e_atoi.c",
+      "-o",
+      "build/pipex"
+    ],
+    "directory": "/home/beyza/obsidian/vscode/coreproject/pipex",
+    "output": "build/pipex"
+  },
+  {
+    "file": "../libc_mini/src/stdio/e_bzero.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-g3",
+      "-Wno-sign-compare",
+      "-Iinclude",
+      "-I../libc_mini/include",
+      "../libc_mini/src/stdio/e_bzero.c",
+      "-o",
+      "build/pipex"
+    ],
+    "directory": "/home/beyza/obsidian/vscode/coreproject/pipex",
+    "output": "build/pipex"
+  },
+  {
+    "file": "../libc_mini/src/stdio/e_fprintf.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-g3",
+      "-Wno-sign-compare",
+      "-Iinclude",
+      "-I../libc_mini/include",
+      "../libc_mini/src/stdio/e_fprintf.c",
+      "-o",
+      "build/pipex"
+    ],
+    "directory": "/home/beyza/obsidian/vscode/coreproject/pipex",
+    "output": "build/pipex"
+  },
+  {
+    "file": "../libc_mini/src/stdio/e_free.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-g3",
+      "-Wno-sign-compare",
+      "-Iinclude",
+      "-I../libc_mini/include",
+      "../libc_mini/src/stdio/e_free.c",
+      "-o",
+      "build/pipex"
+    ],
+    "directory": "/home/beyza/obsidian/vscode/coreproject/pipex",
+    "output": "build/pipex"
+  },
+  {
+    "file": "../libc_mini/src/stdio/e_get_next_line.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-g3",
+      "-Wno-sign-compare",
+      "-Iinclude",
+      "-I../libc_mini/include",
+      "../libc_mini/src/stdio/e_get_next_line.c",
+      "-o",
+      "build/pipex"
+    ],
+    "directory": "/home/beyza/obsidian/vscode/coreproject/pipex",
+    "output": "build/pipex"
+  },
+  {
+    "file": "../libc_mini/src/stdio/e_isalnum.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-g3",
+      "-Wno-sign-compare",
+      "-Iinclude",
+      "-I../libc_mini/include",
+      "../libc_mini/src/stdio/e_isalnum.c",
+      "-o",
+      "build/pipex"
+    ],
+    "directory": "/home/beyza/obsidian/vscode/coreproject/pipex",
+    "output": "build/pipex"
+  },
+  {
+    "file": "../libc_mini/src/stdio/e_isalpha.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-g3",
+      "-Wno-sign-compare",
+      "-Iinclude",
+      "-I../libc_mini/include",
+      "../libc_mini/src/stdio/e_isalpha.c",
+      "-o",
+      "build/pipex"
+    ],
+    "directory": "/home/beyza/obsidian/vscode/coreproject/pipex",
+    "output": "build/pipex"
+  },
+  {
+    "file": "../libc_mini/src/stdio/e_isascii.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-g3",
+      "-Wno-sign-compare",
+      "-Iinclude",
+      "-I../libc_mini/include",
+      "../libc_mini/src/stdio/e_isascii.c",
+      "-o",
+      "build/pipex"
+    ],
+    "directory": "/home/beyza/obsidian/vscode/coreproject/pipex",
+    "output": "build/pipex"
+  },
+  {
+    "file": "../libc_mini/src/stdio/e_isdigit.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-g3",
+      "-Wno-sign-compare",
+      "-Iinclude",
+      "-I../libc_mini/include",
+      "../libc_mini/src/stdio/e_isdigit.c",
+      "-o",
+      "build/pipex"
+    ],
+    "directory": "/home/beyza/obsidian/vscode/coreproject/pipex",
+    "output": "build/pipex"
+  },
+  {
+    "file": "../libc_mini/src/stdio/e_isprint.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-g3",
+      "-Wno-sign-compare",
+      "-Iinclude",
+      "-I../libc_mini/include",
+      "../libc_mini/src/stdio/e_isprint.c",
+      "-o",
+      "build/pipex"
+    ],
+    "directory": "/home/beyza/obsidian/vscode/coreproject/pipex",
+    "output": "build/pipex"
+  },
+  {
+    "file": "../libc_mini/src/stdio/e_itoa.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-g3",
+      "-Wno-sign-compare",
+      "-Iinclude",
+      "-I../libc_mini/include",
+      "../libc_mini/src/stdio/e_itoa.c",
+      "-o",
+      "build/pipex"
+    ],
+    "directory": "/home/beyza/obsidian/vscode/coreproject/pipex",
+    "output": "build/pipex"
+  },
+  {
+    "file": "../libc_mini/src/stdio/e_malloc.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-g3",
+      "-Wno-sign-compare",
+      "-Iinclude",
+      "-I../libc_mini/include",
+      "../libc_mini/src/stdio/e_malloc.c",
+      "-o",
+      "build/pipex"
+    ],
+    "directory": "/home/beyza/obsidian/vscode/coreproject/pipex",
+    "output": "build/pipex"
+  },
+  {
+    "file": "../libc_mini/src/stdio/e_memcpy.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-g3",
+      "-Wno-sign-compare",
+      "-Iinclude",
+      "-I../libc_mini/include",
+      "../libc_mini/src/stdio/e_memcpy.c",
+      "-o",
+      "build/pipex"
+    ],
+    "directory": "/home/beyza/obsidian/vscode/coreproject/pipex",
+    "output": "build/pipex"
+  },
+  {
+    "file": "../libc_mini/src/stdio/e_memmove.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-g3",
+      "-Wno-sign-compare",
+      "-Iinclude",
+      "-I../libc_mini/include",
+      "../libc_mini/src/stdio/e_memmove.c",
+      "-o",
+      "build/pipex"
+    ],
+    "directory": "/home/beyza/obsidian/vscode/coreproject/pipex",
+    "output": "build/pipex"
+  },
+  {
+    "file": "../libc_mini/src/stdio/e_memset.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-g3",
+      "-Wno-sign-compare",
+      "-Iinclude",
+      "-I../libc_mini/include",
+      "../libc_mini/src/stdio/e_memset.c",
+      "-o",
+      "build/pipex"
+    ],
+    "directory": "/home/beyza/obsidian/vscode/coreproject/pipex",
+    "output": "build/pipex"
+  },
+  {
+    "file": "../libc_mini/src/stdio/e_printf.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-g3",
+      "-Wno-sign-compare",
+      "-Iinclude",
+      "-I../libc_mini/include",
+      "../libc_mini/src/stdio/e_printf.c",
+      "-o",
+      "build/pipex"
+    ],
+    "directory": "/home/beyza/obsidian/vscode/coreproject/pipex",
+    "output": "build/pipex"
+  },
+  {
+    "file": "../libc_mini/src/stdio/e_puts.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-g3",
+      "-Wno-sign-compare",
+      "-Iinclude",
+      "-I../libc_mini/include",
+      "../libc_mini/src/stdio/e_puts.c",
+      "-o",
+      "build/pipex"
+    ],
+    "directory": "/home/beyza/obsidian/vscode/coreproject/pipex",
+    "output": "build/pipex"
+  },
+  {
+    "file": "../libc_mini/src/stdio/e_random.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-g3",
+      "-Wno-sign-compare",
+      "-Iinclude",
+      "-I../libc_mini/include",
+      "../libc_mini/src/stdio/e_random.c",
+      "-o",
+      "build/pipex"
+    ],
+    "directory": "/home/beyza/obsidian/vscode/coreproject/pipex",
+    "output": "build/pipex"
+  },
+  {
+    "file": "../libc_mini/src/stdio/e_sbrk.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-g3",
+      "-Wno-sign-compare",
+      "-Iinclude",
+      "-I../libc_mini/include",
+      "../libc_mini/src/stdio/e_sbrk.c",
+      "-o",
+      "build/pipex"
+    ],
+    "directory": "/home/beyza/obsidian/vscode/coreproject/pipex",
+    "output": "build/pipex"
+  },
+  {
+    "file": "../libc_mini/src/stdio/e_sleep.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-g3",
+      "-Wno-sign-compare",
+      "-Iinclude",
+      "-I../libc_mini/include",
+      "../libc_mini/src/stdio/e_sleep.c",
+      "-o",
+      "build/pipex"
+    ],
+    "directory": "/home/beyza/obsidian/vscode/coreproject/pipex",
+    "output": "build/pipex"
+  },
+  {
+    "file": "../libc_mini/src/stdio/e_strchr.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-g3",
+      "-Wno-sign-compare",
+      "-Iinclude",
+      "-I../libc_mini/include",
+      "../libc_mini/src/stdio/e_strchr.c",
+      "-o",
+      "build/pipex"
+    ],
+    "directory": "/home/beyza/obsidian/vscode/coreproject/pipex",
+    "output": "build/pipex"
+  },
+  {
+    "file": "../libc_mini/src/stdio/e_strcmp.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-g3",
+      "-Wno-sign-compare",
+      "-Iinclude",
+      "-I../libc_mini/include",
+      "../libc_mini/src/stdio/e_strcmp.c",
+      "-o",
+      "build/pipex"
+    ],
+    "directory": "/home/beyza/obsidian/vscode/coreproject/pipex",
+    "output": "build/pipex"
+  },
+  {
+    "file": "../libc_mini/src/stdio/e_strdup.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-g3",
+      "-Wno-sign-compare",
+      "-Iinclude",
+      "-I../libc_mini/include",
+      "../libc_mini/src/stdio/e_strdup.c",
+      "-o",
+      "build/pipex"
+    ],
+    "directory": "/home/beyza/obsidian/vscode/coreproject/pipex",
+    "output": "build/pipex"
+  },
+  {
+    "file": "../libc_mini/src/stdio/e_strestr.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-g3",
+      "-Wno-sign-compare",
+      "-Iinclude",
+      "-I../libc_mini/include",
+      "../libc_mini/src/stdio/e_strestr.c",
+      "-o",
+      "build/pipex"
+    ],
+    "directory": "/home/beyza/obsidian/vscode/coreproject/pipex",
+    "output": "build/pipex"
+  },
+  {
+    "file": "../libc_mini/src/stdio/e_strlcat.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-g3",
+      "-Wno-sign-compare",
+      "-Iinclude",
+      "-I../libc_mini/include",
+      "../libc_mini/src/stdio/e_strlcat.c",
+      "-o",
+      "build/pipex"
+    ],
+    "directory": "/home/beyza/obsidian/vscode/coreproject/pipex",
+    "output": "build/pipex"
+  },
+  {
+    "file": "../libc_mini/src/stdio/e_strlcpy.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-g3",
+      "-Wno-sign-compare",
+      "-Iinclude",
+      "-I../libc_mini/include",
+      "../libc_mini/src/stdio/e_strlcpy.c",
+      "-o",
+      "build/pipex"
+    ],
+    "directory": "/home/beyza/obsidian/vscode/coreproject/pipex",
+    "output": "build/pipex"
+  },
+  {
+    "file": "../libc_mini/src/stdio/e_strlen.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-g3",
+      "-Wno-sign-compare",
+      "-Iinclude",
+      "-I../libc_mini/include",
+      "../libc_mini/src/stdio/e_strlen.c",
+      "-o",
+      "build/pipex"
+    ],
+    "directory": "/home/beyza/obsidian/vscode/coreproject/pipex",
+    "output": "build/pipex"
+  },
+  {
+    "file": "../libc_mini/src/stdio/e_strncmp.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-g3",
+      "-Wno-sign-compare",
+      "-Iinclude",
+      "-I../libc_mini/include",
+      "../libc_mini/src/stdio/e_strncmp.c",
+      "-o",
+      "build/pipex"
+    ],
+    "directory": "/home/beyza/obsidian/vscode/coreproject/pipex",
+    "output": "build/pipex"
+  },
+  {
+    "file": "../libc_mini/src/stdio/e_strndup.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-g3",
+      "-Wno-sign-compare",
+      "-Iinclude",
+      "-I../libc_mini/include",
+      "../libc_mini/src/stdio/e_strndup.c",
+      "-o",
+      "build/pipex"
+    ],
+    "directory": "/home/beyza/obsidian/vscode/coreproject/pipex",
+    "output": "build/pipex"
+  },
+  {
+    "file": "../libc_mini/src/stdio/e_strrchr.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-g3",
+      "-Wno-sign-compare",
+      "-Iinclude",
+      "-I../libc_mini/include",
+      "../libc_mini/src/stdio/e_strrchr.c",
+      "-o",
+      "build/pipex"
+    ],
+    "directory": "/home/beyza/obsidian/vscode/coreproject/pipex",
+    "output": "build/pipex"
+  },
+  {
+    "file": "../libc_mini/src/stdio/e_strstr.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-g3",
+      "-Wno-sign-compare",
+      "-Iinclude",
+      "-I../libc_mini/include",
+      "../libc_mini/src/stdio/e_strstr.c",
+      "-o",
+      "build/pipex"
+    ],
+    "directory": "/home/beyza/obsidian/vscode/coreproject/pipex",
+    "output": "build/pipex"
+  },
+  {
+    "file": "../libc_mini/src/stdio/e_strtok.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-g3",
+      "-Wno-sign-compare",
+      "-Iinclude",
+      "-I../libc_mini/include",
+      "../libc_mini/src/stdio/e_strtok.c",
+      "-o",
+      "build/pipex"
+    ],
+    "directory": "/home/beyza/obsidian/vscode/coreproject/pipex",
+    "output": "build/pipex"
+  },
+  {
+    "file": "../libc_mini/src/stdio/e_tolower.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-g3",
+      "-Wno-sign-compare",
+      "-Iinclude",
+      "-I../libc_mini/include",
+      "../libc_mini/src/stdio/e_tolower.c",
+      "-o",
+      "build/pipex"
+    ],
+    "directory": "/home/beyza/obsidian/vscode/coreproject/pipex",
+    "output": "build/pipex"
+  },
+  {
+    "file": "../libc_mini/src/stdio/e_toupper.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-g3",
+      "-Wno-sign-compare",
+      "-Iinclude",
+      "-I../libc_mini/include",
+      "../libc_mini/src/stdio/e_toupper.c",
+      "-o",
+      "build/pipex"
+    ],
+    "directory": "/home/beyza/obsidian/vscode/coreproject/pipex",
+    "output": "build/pipex"
+  },
+  {
+    "file": "../libc_mini/src/stdio/e_ulltoa.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-g3",
+      "-Wno-sign-compare",
+      "-Iinclude",
+      "-I../libc_mini/include",
+      "../libc_mini/src/stdio/e_ulltoa.c",
+      "-o",
+      "build/pipex"
+    ],
+    "directory": "/home/beyza/obsidian/vscode/coreproject/pipex",
+    "output": "build/pipex"
+  },
+  {
+    "file": "../libc_mini/src/syscalls/accept.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-g3",
+      "-Wno-sign-compare",
+      "-Iinclude",
+      "-I../libc_mini/include",
+      "../libc_mini/src/syscalls/accept.c",
+      "-o",
+      "build/pipex"
+    ],
+    "directory": "/home/beyza/obsidian/vscode/coreproject/pipex",
+    "output": "build/pipex"
+  },
+  {
+    "file": "../libc_mini/src/syscalls/access.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-g3",
+      "-Wno-sign-compare",
+      "-Iinclude",
+      "-I../libc_mini/include",
+      "../libc_mini/src/syscalls/access.c",
+      "-o",
+      "build/pipex"
+    ],
+    "directory": "/home/beyza/obsidian/vscode/coreproject/pipex",
+    "output": "build/pipex"
+  },
+  {
+    "file": "../libc_mini/src/syscalls/bind.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-g3",
+      "-Wno-sign-compare",
+      "-Iinclude",
+      "-I../libc_mini/include",
+      "../libc_mini/src/syscalls/bind.c",
+      "-o",
+      "build/pipex"
+    ],
+    "directory": "/home/beyza/obsidian/vscode/coreproject/pipex",
+    "output": "build/pipex"
+  },
+  {
+    "file": "../libc_mini/src/syscalls/close.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-g3",
+      "-Wno-sign-compare",
+      "-Iinclude",
+      "-I../libc_mini/include",
+      "../libc_mini/src/syscalls/close.c",
+      "-o",
+      "build/pipex"
+    ],
+    "directory": "/home/beyza/obsidian/vscode/coreproject/pipex",
+    "output": "build/pipex"
+  },
+  {
+    "file": "../libc_mini/src/syscalls/dup2.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-g3",
+      "-Wno-sign-compare",
+      "-Iinclude",
+      "-I../libc_mini/include",
+      "../libc_mini/src/syscalls/dup2.c",
+      "-o",
+      "build/pipex"
+    ],
+    "directory": "/home/beyza/obsidian/vscode/coreproject/pipex",
+    "output": "build/pipex"
+  },
+  {
+    "file": "../libc_mini/src/syscalls/execve.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-g3",
+      "-Wno-sign-compare",
+      "-Iinclude",
+      "-I../libc_mini/include",
+      "../libc_mini/src/syscalls/execve.c",
+      "-o",
+      "build/pipex"
+    ],
+    "directory": "/home/beyza/obsidian/vscode/coreproject/pipex",
+    "output": "build/pipex"
+  },
+  {
+    "file": "../libc_mini/src/syscalls/exit.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-g3",
+      "-Wno-sign-compare",
+      "-Iinclude",
+      "-I../libc_mini/include",
+      "../libc_mini/src/syscalls/exit.c",
+      "-o",
+      "build/pipex"
+    ],
+    "directory": "/home/beyza/obsidian/vscode/coreproject/pipex",
+    "output": "build/pipex"
+  },
+  {
+    "file": "../libc_mini/src/syscalls/fork.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-g3",
+      "-Wno-sign-compare",
+      "-Iinclude",
+      "-I../libc_mini/include",
+      "../libc_mini/src/syscalls/fork.c",
+      "-o",
+      "build/pipex"
+    ],
+    "directory": "/home/beyza/obsidian/vscode/coreproject/pipex",
+    "output": "build/pipex"
+  },
+  {
+    "file": "../libc_mini/src/syscalls/listen.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-g3",
+      "-Wno-sign-compare",
+      "-Iinclude",
+      "-I../libc_mini/include",
+      "../libc_mini/src/syscalls/listen.c",
+      "-o",
+      "build/pipex"
+    ],
+    "directory": "/home/beyza/obsidian/vscode/coreproject/pipex",
+    "output": "build/pipex"
+  },
+  {
+    "file": "../libc_mini/src/syscalls/open.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-g3",
+      "-Wno-sign-compare",
+      "-Iinclude",
+      "-I../libc_mini/include",
+      "../libc_mini/src/syscalls/open.c",
+      "-o",
+      "build/pipex"
+    ],
+    "directory": "/home/beyza/obsidian/vscode/coreproject/pipex",
+    "output": "build/pipex"
+  },
+  {
+    "file": "../libc_mini/src/syscalls/pipe.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-g3",
+      "-Wno-sign-compare",
+      "-Iinclude",
+      "-I../libc_mini/include",
+      "../libc_mini/src/syscalls/pipe.c",
+      "-o",
+      "build/pipex"
+    ],
+    "directory": "/home/beyza/obsidian/vscode/coreproject/pipex",
+    "output": "build/pipex"
+  },
+  {
+    "file": "../libc_mini/src/syscalls/read.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-g3",
+      "-Wno-sign-compare",
+      "-Iinclude",
+      "-I../libc_mini/include",
+      "../libc_mini/src/syscalls/read.c",
+      "-o",
+      "build/pipex"
+    ],
+    "directory": "/home/beyza/obsidian/vscode/coreproject/pipex",
+    "output": "build/pipex"
+  },
+  {
+    "file": "../libc_mini/src/syscalls/setsockopt.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-g3",
+      "-Wno-sign-compare",
+      "-Iinclude",
+      "-I../libc_mini/include",
+      "../libc_mini/src/syscalls/setsockopt.c",
+      "-o",
+      "build/pipex"
+    ],
+    "directory": "/home/beyza/obsidian/vscode/coreproject/pipex",
+    "output": "build/pipex"
+  },
+  {
+    "file": "../libc_mini/src/syscalls/socket.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-g3",
+      "-Wno-sign-compare",
+      "-Iinclude",
+      "-I../libc_mini/include",
+      "../libc_mini/src/syscalls/socket.c",
+      "-o",
+      "build/pipex"
+    ],
+    "directory": "/home/beyza/obsidian/vscode/coreproject/pipex",
+    "output": "build/pipex"
+  },
+  {
+    "file": "../libc_mini/src/syscalls/unlink.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-g3",
+      "-Wno-sign-compare",
+      "-Iinclude",
+      "-I../libc_mini/include",
+      "../libc_mini/src/syscalls/unlink.c",
+      "-o",
+      "build/pipex"
+    ],
+    "directory": "/home/beyza/obsidian/vscode/coreproject/pipex",
+    "output": "build/pipex"
+  },
+  {
+    "file": "../libc_mini/src/syscalls/wait.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-g3",
+      "-Wno-sign-compare",
+      "-Iinclude",
+      "-I../libc_mini/include",
+      "../libc_mini/src/syscalls/wait.c",
+      "-o",
+      "build/pipex"
+    ],
+    "directory": "/home/beyza/obsidian/vscode/coreproject/pipex",
+    "output": "build/pipex"
+  },
+  {
+    "file": "../libc_mini/src/syscalls/waitpid.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-g3",
+      "-Wno-sign-compare",
+      "-Iinclude",
+      "-I../libc_mini/include",
+      "../libc_mini/src/syscalls/waitpid.c",
+      "-o",
+      "build/pipex"
+    ],
+    "directory": "/home/beyza/obsidian/vscode/coreproject/pipex",
+    "output": "build/pipex"
+  },
+  {
+    "file": "../libc_mini/src/syscalls/write.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-g3",
+      "-Wno-sign-compare",
+      "-Iinclude",
+      "-I../libc_mini/include",
+      "../libc_mini/src/syscalls/write.c",
+      "-o",
+      "build/pipex"
+    ],
+    "directory": "/home/beyza/obsidian/vscode/coreproject/pipex",
+    "output": "build/pipex"
+  }
+]
