@@ -167,45 +167,46 @@ int main(int argc, char **argv, char **envp) {
     argcv_handler(argc, argv);
     lwlog_debug("argc=%d", argc);
 
-    // get the input
-    e_printf("\n$> ");
-    char *input = e_malloc(sizeof(char) * 100);
-    if (!input) {
-        lwlog_err("failed to allocate input buffer");
-        return 1;
-    }
-    if (fgets(input, 100, stdin) == NULL) {
-        lwlog_err("failed to read input from stdin");
+    while (1) {
+        // get the input
+        e_printf("\n$> ");
+        char *input = e_malloc(sizeof(char) * 100);
+        if (!input) {
+            lwlog_err("failed to allocate input buffer");
+            return 1;
+        }
+        if (fgets(input, 100, stdin) == NULL) {
+            e_free(input);
+            break;
+        }
+
+        char *tracker = input;
+
+        t_cmd *cmd_list_head = create_node();
+        t_cmd *current_cmd = cmd_list_head;
+
+        // tokenize the input and build the linked list of commands
+        char *token = get_next_token(&tracker);
+
+        while (token != NULL) {
+            lwlog_debug("processing token %s", token);
+
+            // process the token and update the current_cmd accordingly
+            process_token(token, &current_cmd, envp, &tracker);
+            // token has processed and added to the current_cmd, now get the
+            // next token
+            token = get_next_token(&tracker);
+        }
+
         e_free(input);
-        return 1;
-    }
+        lwlog_info("built command list, printing for debug");
+        print_cmd_list(cmd_list_head);
 
-    char *tracker = input;
-
-    t_cmd *cmd_list_head = create_node();
-    t_cmd *current_cmd = cmd_list_head;
-
-    // tokenize the input and build the linked list of commands
-    char *token = get_next_token(&tracker);
-
-    while (token != NULL) {
-        lwlog_debug("processing token %s", token);
-
-        // process the token and update the current_cmd accordingly
-        process_token(token, &current_cmd, envp, &tracker);
-        // token has processed and added to the current_cmd, now get the
-        // next token
-        token = get_next_token(&tracker);
-    }
-
-    e_free(input);
-    lwlog_info("built command list, printing for debug");
-    print_cmd_list(cmd_list_head);
-
-    lwlog_info("executing commands");
-    if (execute_commands(cmd_list_head, envp) != 0) {
-        lwlog_err("failed to execute commands");
-        return 1;
+        lwlog_info("executing commands");
+        if (execute_commands(cmd_list_head, envp) != 0) {
+            lwlog_err("failed to execute commands");
+            return 1;
+        }
     }
     // its time to fork a child and execute the commands in the linked list
 

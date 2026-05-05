@@ -1,12 +1,12 @@
 NAME := build/minishell
 CC := cc
 CFLAGS := -Wall -Wextra -Werror -g3 -Wno-sign-compare
-INCLUDES := -Iinclude -I minimal-vm-env/libc_mini/include
+INCLUDES := -Iinclude -I libc_mini/include
 BUILD_DIR := build
 
 SRC := $(wildcard src/*.c)
 OBJ := $(patsubst src/%.c,$(BUILD_DIR)/%.o,$(SRC))
-MINISRC := $(wildcard minimal-vm-env/libc_mini/src/stdio/*.c) $(wildcard minimal-vm-env/libc_mini/src/syscalls/*.c)
+MINISRC := $(wildcard libc_mini/src/stdio/*.c) $(wildcard libc_mini/src/syscalls/*.c)
 
 all: $(NAME)
 
